@@ -31,5 +31,6 @@ python -m SimpleHTTPServer 8000
 
 ## Built With
 
-* Material Design
-* Polymer
+* Polymer <paper-menu>
+* pyLDAvis
+* wordclouds
