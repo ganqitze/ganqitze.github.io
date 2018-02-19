@@ -9,6 +9,7 @@ You will need the following to get the web ready.
 ```
 Node.js
 NPM
+Python
 ```
 ### Installing
 First, lets install bower via npm
