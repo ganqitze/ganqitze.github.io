@@ -12,7 +12,7 @@ NPM
 Python
 ```
 ### Installing
-First, lets install bower via npm
+First, let's install bower via npm
 ```
 npm install -g bower
 ```
@@ -24,9 +24,11 @@ Then, cd to the cloned repo and bower install some polymer element
 ```
 bower install --save googlearchive/paper-menu
 ```
-Finally, open up a local server (a python simple http server will do) and play around.
+Finally, open up a local server (a python simple http server will do) and play around with the link below.
 ```
-python -m SimpleHTTPServer 8000
+python -m SimpleHTTPServer 8000 (Python 2.x)
+python -m http.server --cgi 8000 (Python 3.x)
+localhost:8000/home.html
 ```
 
 ## Built With
